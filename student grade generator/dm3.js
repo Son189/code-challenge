@@ -1,12 +1,11 @@
-<html>
-<head>
-<script type="text/javascript" src="index.js"><script/>
-function disp_prompt()
-{
-var score=prompt("Enter marks?");
+//var grade="score you have"
 
+   
 
-
+    function grade(){}
+    document.addEventListener("grade",(alert)=> {
+         var marks=document.getElementById("grade")
+    var score="grade"
     if(score >79 && score <= 100){
         
         alert("grade A")
@@ -25,16 +24,11 @@ var score=prompt("Enter marks?");
     else if(score > 40 && score < 0){
       
       alert("grade E")
+      
     }
-  {
-  window.alert ()
-  }
-}
-</script>
-</head>
-<body>
-
-<input type="button" onclick="disp_prompt()" value="Enter marks" />
-
-</body>
-</html>
+    /*else if (score ===null){
+        alert("invalid grade")
+    }*/
+   // window.alert("your grade is",marks);
+  return ("your grade is",alert) 
+})

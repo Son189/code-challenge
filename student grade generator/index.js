@@ -1,16 +1,11 @@
-//const grade=document.getElementById("grade")
-//const marks=addEventListener("grade")
+//var grade="score you have"
 
-let score=prompt("Enter marks?")
-let input= "score"
-function addEventListener(){}
-const grade =document.getElementById("grade").value
-function clickAlert(){ }
-function disp_prompt(){ 
-  
+   
 
-
-
+    function grade(){}
+    document.addEventListener("grade",(alert)=> {
+         var marks=document.getElementById("grade")
+    var score="grade"
     if(score >79 && score <= 100){
         
         alert("grade A")
@@ -29,7 +24,11 @@ function disp_prompt(){
     else if(score > 40 && score < 0){
       
       alert("grade E")
+      
     }
-   grade.addEventListener("your grade is :",disp_prompt)
-
-} 
+    /*else if (score ===null){
+        alert("invalid grade")
+    }*/
+   // window.alert("your grade is",marks);
+  return ("your grade is",alert) 
+})
