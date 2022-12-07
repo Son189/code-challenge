@@ -8,7 +8,7 @@ This includes:
 
 ## Running and Installation process
 open your terminal and clone the repository by running this code:
-git clone git@github.com:Son189/code-challenge.git
+    git clone git@github.com:Son189/code-challenge.git
 
 This creates a repository in your github account that allows you to access files of the code-challenge.
 Change your current directory to the directory your git was cloned to, by running cd command and adding the name of the directory
